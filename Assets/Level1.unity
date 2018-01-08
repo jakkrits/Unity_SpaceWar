@@ -23,7 +23,7 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 4.4
+  m_AmbientIntensity: 2.51
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: b60f2c03a56e1483e81f2412079d64ea, type: 2}
@@ -35,15 +35,15 @@ RenderSettings:
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
-  m_ReflectionIntensity: 0.907
+  m_ReflectionIntensity: 0.701
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.28619736, g: 0.23912373, b: 0.1947622, a: 0.907}
+  m_IndirectSpecularColor: {r: 0.251468, g: 0.20918584, b: 0.16933972, a: 0.701}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -89,7 +89,8 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000002, guid: 33cede1560b9046be869d5a40d784ada,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -122,15 +123,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4725060423661220, guid: f73cebee0229d4a0182454b99ec751b0, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -24.144592
+      value: 453.1
       objectReference: {fileID: 0}
     - target: {fileID: 4725060423661220, guid: f73cebee0229d4a0182454b99ec751b0, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 110.393
+      value: -15.6
       objectReference: {fileID: 0}
     - target: {fileID: 4725060423661220, guid: f73cebee0229d4a0182454b99ec751b0, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -193.4
+      value: 589
       objectReference: {fileID: 0}
     - target: {fileID: 4725060423661220, guid: f73cebee0229d4a0182454b99ec751b0, type: 2}
       propertyPath: m_LocalRotation.x
@@ -229,13 +230,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1521276635}
-  m_LocalRotation: {x: -0.0019997414, y: 0.9860121, z: -0.16344346, w: -0.03259487}
-  m_LocalPosition: {x: 406, y: 240, z: 737}
+  m_LocalRotation: {x: -0.018029217, y: 0.9766074, z: -0.174224, w: -0.1247359}
+  m_LocalPosition: {x: 449.2, y: 186.9, z: 743.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 18.811, y: 183.85399, z: 0.40600002}
+  m_LocalEulerAnglesHint: {x: 20.169, y: 194.64699, z: 0.504}
 --- !u!1 &1592691667
 GameObject:
   m_ObjectHideFlags: 0
